@@ -55,8 +55,8 @@ const serverConfig = {
   target: 'node',
   externals: [nodeExternals()],
   output: {
-    filename: 'server.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: 'index.js',
+    path: path.resolve(__dirname, 'api'),
     publicPath: '/',
   },
   module: {
